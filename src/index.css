@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../src/assets/fonts/Satoshi-Variable.woff2') format('woff2'),
+       url('/../src/assets/fonts/Satoshi-Variable.woff') format('woff');
+  font-style: normal;
+  font-display: swap;
+}
+
+
+/* Custom global styles */
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-800 font-sans;
+    font-family: 'Satoshi', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-medium;
+  }
+}
+
+.font-satoshi {
+  font-family: 'Satoshi', sans-serif;
+}
+/* Custom styles for charts */
+.chart-container {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+.chart-container:hover {
+  @apply shadow-lg;
+}
+
+/* Animation classes */
+.fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.slide-in {
+  animation: slideIn 0.5s ease-in-out;
+}
+
+@keyframes slideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-blue-900 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-blue-800;
+}
+
+/* Hide scrollbar but keep scrolling functional */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+  overflow-y: scroll; /* Optional: ensure vertical scrolling is active */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}

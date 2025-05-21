@@ -1,0 +1,123 @@
+{
+  "user": {
+    "name": "Daniel",
+    "lastLogin": "26/11/2024 14:39:58",
+    "date": "20 May 2025"
+  },
+  "quickAccess": [
+    {
+      "id": 1,
+      "title": "Manage a Card",
+      "icon": "manage",
+      "link": "/manage"
+    },
+    {
+      "id": 2,
+      "title": "Issue Instant Card",
+      "icon": "instant",
+      "link": "/issue-instant"
+    },
+    {
+      "id": 3,
+      "title": "Issue Personalized Card",
+      "icon": "personalized",
+      "link": "/issue-personalized"
+    },
+    {
+      "id": 4,
+      "title": "Review Card Requests",
+      "icon": "review",
+      "link": "/review"
+    }
+  ],
+  "stats": {
+    "activeCards": {
+      "value": 26478,
+      "change": 9,
+      "changeType": "positive",
+      "period": "this month"
+    },
+    "personalizedCards": {
+      "value": 15703,
+      "change": 8.5,
+      "changeType": "positive",
+      "period": "this month"
+    },
+    "todayRevenue": {
+      "value": 9300000,
+      "currency": "₦",
+      "change": 6,
+      "changeType": "positive",
+      "period": "vs yesterday"
+    },
+    "pendingRequests": {
+      "value": 38,
+      "requiresAttention": true
+    }
+  },
+  "monthlyIssuance": {
+    "months": ["May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov"],
+    "personalizedData": [15, 22, 10, 15, 20, 19, 16],
+    "instantData": [45, 60, 30, 40, 35, 65, 50]
+  },
+  "weeklyIncome": {
+    "days": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+    "values": [40, 35, 20, 45, 40, 25, 75]
+  },
+  "cardRequests": [
+    {
+      "id": 1,
+      "branch": "Corporate",
+      "cardType": "Instant",
+      "quantity": 10,
+      "status": "Ready"
+    },
+    {
+      "id": 2,
+      "branch": "Corporate",
+      "cardType": "Personalized",
+      "quantity": 10,
+      "status": "In Progress"
+    },
+    {
+      "id": 3,
+      "branch": "Corporate",
+      "cardType": "Personalized",
+      "quantity": 10,
+      "status": "Acknowledged"
+    },
+    {
+      "id": 4,
+      "branch": "Corporate",
+      "cardType": "Instant",
+      "quantity": 10,
+      "status": "Pending"
+    }
+  ],
+  "cardStatus": {
+    "total": 2450,
+    "distribution": [
+      { "status": "Active", "percentage": 45, "color": "#00A0AC" },
+      { "status": "Expired", "percentage": 25, "color": "#FACC15" },
+      { "status": "Inactive", "percentage": 15, "color": "#1E40AF" },
+      { "status": "Blocked", "percentage": 10, "color": "#9333EA" },
+      { "status": "Lost", "percentage": 5, "color": "#EF4444" }
+    ]
+  },
+  "menu": [
+    { "id": 1, "title": "Dashboard", "icon": "dashboard", "link": "/" },
+    { "id": 2, "title": "Branches", "icon": "branches", "link": "/branches" },
+    { "id": 3, "title": "Roles", "icon": "roles", "link": "/roles" },
+    { "id": 4, "title": "Users", "icon": "users", "link": "/users" },
+    { "id": 5, "title": "Card Scheme", "icon": "scheme", "link": "/card-scheme" },
+    { "id": 6, "title": "Card Profile", "icon": "profile", "link": "/card-profile" },
+    { "id": 7, "title": "Card Request", "icon": "request", "link": "/card-request" },
+    { "id": 8, "title": "Stock", "icon": "stock", "link": "/stock" },
+    { "id": 9, "title": "Cards", "icon": "cards", "link": "/cards" },
+    { "id": 10, "title": "Block/Unblock Card", "icon": "block", "link": "/block-unblock" },
+    { "id": 11, "title": "Authorization List", "icon": "list", "link": "/auth-list" },
+    { "id": 12, "title": "Authorization Queue", "icon": "queue", "link": "/auth-queue" },
+    { "id": 13, "title": "Trail", "icon": "trail", "link": "/trail" },
+    { "id": 14, "title": "Account", "icon": "account", "link": "/account" }
+  ]
+}
