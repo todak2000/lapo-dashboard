@@ -17,7 +17,7 @@
     * [Chart Components](#chart-components)
     * [UI Components](#ui-components)
 
-* Data Flow(#data-flow)
+* [Data Flow](#data-flow)
 
 * [Setup Instructions](#setup-instructions)
 
@@ -27,10 +27,10 @@
 
 * [Future Enhancements](#future-enhancements)
 
-* [License](#license)
 
 ## 1. Introduction
 The LAPO Dashboard is a modern, responsive single-page application built with React and TypeScript, designed to provide users with intuitive data visualization and management capabilities. This application serves as a centralized platform for monitoring key metrics, analyzing trends, and facilitating data-driven decision-making through interactive charts, statistical cards, and dynamic data tables.
+Live link: https://lapo-dashboard-one.vercel.app/
 
 ## 2. Project Overview
 The primary goal of the LAPO Dashboard is to transform complex datasets into accessible, actionable insights. It features a clean, user-friendly interface comprising a persistent sidebar for navigation, a dynamic header for global controls, and a main content area that intelligently displays various data visualizations and interactive action cards. The architecture emphasizes modularity and reusability, ensuring maintainability and scalability as the project evolves.
