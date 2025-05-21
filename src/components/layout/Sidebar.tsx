@@ -4,8 +4,8 @@ import type { MenuItem } from "../../types";
 import { getIcon } from "../../utils/iconUtil";
 import { LogoutIcon } from "../icons";
 
-const lapoLogo = "/src/assets/logo.png";
-const cardInfo = "/src/assets/cardinfo.png";
+const lapoLogo = "/logo.png";
+const cardInfo = "/cardinfo.png";
 
 interface SideBarProps {
   activeMenu: MenuItem;
